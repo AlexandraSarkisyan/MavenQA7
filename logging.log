@@ -1,0 +1,731 @@
+2020-10-27 16:54:24 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-27 16:54:24 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:54:25 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:54:25 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:54:25 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:54:25 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:54:25 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:54:26 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:54:26 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61535}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b1839a3c18e9d4d9c8d29ccce3233186
+*** Element info: {Using=id, value=user}
+2020-10-27 16:54:27 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:54:27 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:54:28 INFO  LogLog4j:16 - 
+2020-10-27 16:54:28 INFO  LogLog4j:17 - 
+2020-10-27 16:54:28 INFO  LogLog4j:18 - *******************************************************************
+2020-10-27 16:54:28 INFO  LogLog4j:19 -                    Test Case: LoginPositive
+2020-10-27 16:54:28 INFO  LogLog4j:20 - *******************************************************************
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Parameter login - alexandra13sark@gmail.com
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:54:28 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:54:29 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:54:29 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Log in with Atlassian']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61535}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b1839a3c18e9d4d9c8d29ccce3233186
+*** Element info: {Using=xpath, value=//input[@value='Log in with Atlassian']}
+2020-10-27 16:54:29 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:54:29 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Log in with Atlassian']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61535}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b1839a3c18e9d4d9c8d29ccce3233186
+*** Element info: {Using=xpath, value=//input[@value='Log in with Atlassian']}
+2020-10-27 16:54:30 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:54:30 INFO  LogLog4j:42 - Element By.xpath: //input[@value='Log in with Atlassian'] was found
+2020-10-27 16:54:30 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:54:30 INFO  LogLog4j:42 - Element By.xpath: //input[@value='Log in with Atlassian'] was found
+2020-10-27 16:54:30 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:54:30 INFO  LogLog4j:42 - Element By.xpath: //input[@value='Log in with Atlassian'] was found
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Find element: By.id: login-submit
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Element By.id: login-submit was found
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Find element: By.id: login-submit
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Element By.id: login-submit was found
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Find element: By.id: login-submit
+2020-10-27 16:54:35 INFO  LogLog4j:42 - Element By.id: login-submit was found
+2020-10-27 16:54:36 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:54:36 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id ='header-boards-menu-button']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61535}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b1839a3c18e9d4d9c8d29ccce3233186
+*** Element info: {Using=xpath, value=//button[@data-test-id ='header-boards-menu-button']}
+2020-10-27 16:54:36 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:54:36 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id ='header-boards-menu-button']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61535}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b1839a3c18e9d4d9c8d29ccce3233186
+*** Element info: {Using=xpath, value=//button[@data-test-id ='header-boards-menu-button']}
+2020-10-27 16:54:37 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:54:37 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id ='header-boards-menu-button']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61535}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b1839a3c18e9d4d9c8d29ccce3233186
+*** Element info: {Using=xpath, value=//button[@data-test-id ='header-boards-menu-button']}
+2020-10-27 16:54:37 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:54:40 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id ='header-boards-menu-button']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61535}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b1839a3c18e9d4d9c8d29ccce3233186
+*** Element info: {Using=xpath, value=//button[@data-test-id ='header-boards-menu-button']}
+2020-10-27 16:54:40 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:54:52 INFO  LogLog4j:42 - Element By.xpath: //button[@data-test-id ='header-boards-menu-button'] was found
+2020-10-27 16:54:52 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:54:52 INFO  LogLog4j:42 - Element By.xpath: //button[@data-test-id ='header-boards-menu-button'] was found
+2020-10-27 16:54:52 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:54:52 INFO  LogLog4j:42 - Element By.xpath: //button[@data-test-id ='header-boards-menu-button'] was found
+2020-10-27 16:54:52 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-27 16:55:01 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-27 16:55:01 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:55:01 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:55:01 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:55:01 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:55:01 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:55:02 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:55:02 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:03 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d03f21555549c5f68a1ddf48e838825b
+*** Element info: {Using=id, value=user}
+2020-10-27 16:55:03 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:04 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:04 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:04 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:04 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:04 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:04 INFO  LogLog4j:16 - 
+2020-10-27 16:55:04 INFO  LogLog4j:17 - 
+2020-10-27 16:55:04 INFO  LogLog4j:18 - *******************************************************************
+2020-10-27 16:55:04 INFO  LogLog4j:19 -                    Test Case: LoginPositive
+2020-10-27 16:55:04 INFO  LogLog4j:20 - *******************************************************************
+2020-10-27 16:55:04 INFO  LogLog4j:42 - Parameter login - alexandra13sark@gmail.com
+2020-10-27 16:55:04 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-27 16:55:04 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:04 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:04 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:04 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:05 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:05 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:05 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:55:05 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Log in with Atlassian']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d03f21555549c5f68a1ddf48e838825b
+*** Element info: {Using=xpath, value=//input[@value='Log in with Atlassian']}
+2020-10-27 16:55:05 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:55:05 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Log in with Atlassian']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d03f21555549c5f68a1ddf48e838825b
+*** Element info: {Using=xpath, value=//input[@value='Log in with Atlassian']}
+2020-10-27 16:55:06 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:55:06 INFO  LogLog4j:42 - Element By.xpath: //input[@value='Log in with Atlassian'] was found
+2020-10-27 16:55:06 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:55:06 INFO  LogLog4j:42 - Element By.xpath: //input[@value='Log in with Atlassian'] was found
+2020-10-27 16:55:06 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:55:06 INFO  LogLog4j:42 - Element By.xpath: //input[@value='Log in with Atlassian'] was found
+2020-10-27 16:55:10 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:55:10 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:55:10 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:55:10 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:55:10 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:55:10 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Find element: By.id: login-submit
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Element By.id: login-submit was found
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Find element: By.id: login-submit
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Element By.id: login-submit was found
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Find element: By.id: login-submit
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Element By.id: login-submit was found
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:55:11 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id ='header-boards-menu-button']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d03f21555549c5f68a1ddf48e838825b
+*** Element info: {Using=xpath, value=//button[@data-test-id ='header-boards-menu-button']}
+2020-10-27 16:55:12 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:55:12 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id ='header-boards-menu-button']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d03f21555549c5f68a1ddf48e838825b
+*** Element info: {Using=xpath, value=//button[@data-test-id ='header-boards-menu-button']}
+2020-10-27 16:55:12 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:55:12 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id ='header-boards-menu-button']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d03f21555549c5f68a1ddf48e838825b
+*** Element info: {Using=xpath, value=//button[@data-test-id ='header-boards-menu-button']}
+2020-10-27 16:55:13 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:55:15 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id ='header-boards-menu-button']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d03f21555549c5f68a1ddf48e838825b
+*** Element info: {Using=xpath, value=//button[@data-test-id ='header-boards-menu-button']}
+2020-10-27 16:55:15 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:55:23 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-test-id ='header-boards-menu-button']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d03f21555549c5f68a1ddf48e838825b
+*** Element info: {Using=xpath, value=//button[@data-test-id ='header-boards-menu-button']}
+2020-10-27 16:55:24 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:55:25 INFO  LogLog4j:42 - Element By.xpath: //button[@data-test-id ='header-boards-menu-button'] was found
+2020-10-27 16:55:25 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:55:26 INFO  LogLog4j:42 - Element By.xpath: //button[@data-test-id ='header-boards-menu-button'] was found
+2020-10-27 16:55:26 INFO  LogLog4j:42 - Find element: By.xpath: //button[@data-test-id ='header-boards-menu-button']
+2020-10-27 16:55:26 INFO  LogLog4j:42 - Element By.xpath: //button[@data-test-id ='header-boards-menu-button'] was found
+2020-10-27 16:55:26 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-27 16:55:35 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-27 16:55:35 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:55:35 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:55:35 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:55:35 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:55:35 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:55:35 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:55:36 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:36 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: da62e13da55c7c492f16d096c3f2b260
+*** Element info: {Using=id, value=user}
+2020-10-27 16:55:37 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:37 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:38 INFO  LogLog4j:16 - 
+2020-10-27 16:55:38 INFO  LogLog4j:17 - 
+2020-10-27 16:55:38 INFO  LogLog4j:18 - *******************************************************************
+2020-10-27 16:55:38 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-27 16:55:38 INFO  LogLog4j:20 - *******************************************************************
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Parameter login - 
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:55:38 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:55:39 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:55:39 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:55:44 INFO  LogLog4j:42 - Find element: By.id: login
+2020-10-27 16:55:44 INFO  LogLog4j:42 - Element By.id: login was found
+2020-10-27 16:55:44 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:55:44 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:55:49 INFO  LogLog4j:42 - Find element: By.id: login
+2020-10-27 16:55:49 INFO  LogLog4j:42 - Element By.id: login was found
+2020-10-27 16:55:49 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-27 16:55:49 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:55:49 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:55:49 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:55:49 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:55:58 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-27 16:55:58 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:55:58 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:55:58 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:55:58 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:55:58 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:55:58 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:55:58 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:58 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61775}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8d8972462443cc20516aed6f13edff37
+*** Element info: {Using=id, value=user}
+2020-10-27 16:55:59 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:55:59 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61775}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8d8972462443cc20516aed6f13edff37
+*** Element info: {Using=id, value=user}
+2020-10-27 16:56:00 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:00 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:01 INFO  LogLog4j:16 - 
+2020-10-27 16:56:01 INFO  LogLog4j:17 - 
+2020-10-27 16:56:01 INFO  LogLog4j:18 - *******************************************************************
+2020-10-27 16:56:01 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginIncorrect()
+2020-10-27 16:56:01 INFO  LogLog4j:20 - *******************************************************************
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Parameter login - 
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Parameter errorMessage - Missing email
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:56:01 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:56:07 INFO  LogLog4j:42 - Find element: By.id: login
+2020-10-27 16:56:07 INFO  LogLog4j:42 - Element By.id: login was found
+2020-10-27 16:56:07 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:56:07 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:56:07 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:56:07 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:56:07 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:56:07 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:56:07 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-27 16:56:15 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-27 16:56:15 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:56:15 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:56:15 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:56:15 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:56:15 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:56:15 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:56:16 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:16 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b0cb6ac8a9c877b0407f418348db62ea
+*** Element info: {Using=id, value=user}
+2020-10-27 16:56:17 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:17 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:18 INFO  LogLog4j:16 - 
+2020-10-27 16:56:18 INFO  LogLog4j:17 - 
+2020-10-27 16:56:18 INFO  LogLog4j:18 - *******************************************************************
+2020-10-27 16:56:18 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginIncorrect()
+2020-10-27 16:56:18 INFO  LogLog4j:20 - *******************************************************************
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Parameter login - 123
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Parameter errorMessage - There isn't an account for this username
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:56:18 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:56:23 INFO  LogLog4j:42 - Find element: By.id: login
+2020-10-27 16:56:23 INFO  LogLog4j:42 - Element By.id: login was found
+2020-10-27 16:56:24 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:56:24 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:56:24 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:56:24 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:56:24 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:56:24 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:56:24 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:56:24 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:56:24 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-27 16:56:33 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-27 16:56:33 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:56:33 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:56:33 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:56:33 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:56:33 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:56:33 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:56:33 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:34 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5512aeb599a72382bcf3ef06da47746e
+*** Element info: {Using=id, value=user}
+2020-10-27 16:56:34 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:34 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:35 INFO  LogLog4j:16 - 
+2020-10-27 16:56:35 INFO  LogLog4j:17 - 
+2020-10-27 16:56:35 INFO  LogLog4j:18 - *******************************************************************
+2020-10-27 16:56:35 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginIncorrect()
+2020-10-27 16:56:35 INFO  LogLog4j:20 - *******************************************************************
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Parameter login - anjnd@gmail
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Parameter errorMessage - There isn't an account for this email
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:56:35 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:56:36 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:56:36 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:56:41 INFO  LogLog4j:42 - Find element: By.id: login
+2020-10-27 16:56:41 INFO  LogLog4j:42 - Element By.id: login was found
+2020-10-27 16:56:41 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:56:41 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:56:41 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:56:41 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:56:41 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:56:41 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:56:41 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:56:41 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:56:41 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-27 16:56:51 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-27 16:56:51 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:56:51 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:56:51 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:56:51 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:56:51 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:56:51 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:56:52 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:52 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c948c3bed8b72e183d906f953e92bd64
+*** Element info: {Using=id, value=user}
+2020-10-27 16:56:53 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:53 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:54 INFO  LogLog4j:16 - 
+2020-10-27 16:56:54 INFO  LogLog4j:17 - 
+2020-10-27 16:56:54 INFO  LogLog4j:18 - *******************************************************************
+2020-10-27 16:56:54 INFO  LogLog4j:19 -                    Test Case: passwordIncorrectNegativeTest()
+2020-10-27 16:56:54 INFO  LogLog4j:20 - *******************************************************************
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:56:54 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Log in with Atlassian']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c948c3bed8b72e183d906f953e92bd64
+*** Element info: {Using=xpath, value=//input[@value='Log in with Atlassian']}
+2020-10-27 16:56:55 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:56:55 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Log in with Atlassian']"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c948c3bed8b72e183d906f953e92bd64
+*** Element info: {Using=xpath, value=//input[@value='Log in with Atlassian']}
+2020-10-27 16:56:55 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:56:55 INFO  LogLog4j:42 - Element By.xpath: //input[@value='Log in with Atlassian'] was found
+2020-10-27 16:56:55 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:56:55 INFO  LogLog4j:42 - Element By.xpath: //input[@value='Log in with Atlassian'] was found
+2020-10-27 16:56:55 INFO  LogLog4j:42 - Find element: By.xpath: //input[@value='Log in with Atlassian']
+2020-10-27 16:56:55 INFO  LogLog4j:42 - Element By.xpath: //input[@value='Log in with Atlassian'] was found
+2020-10-27 16:57:00 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:57:00 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:57:00 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:57:00 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:57:00 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:57:00 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:57:00 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:57:00 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:57:00 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:57:00 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Find element: By.id: login-submit
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Element By.id: login-submit was found
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Find element: By.id: login-submit
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Element By.id: login-submit was found
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Find element: By.id: login-submit
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Element By.id: login-submit was found
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Parameter login - alexandra13sark@gmail.com
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Parameter password - alex613e1
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Parameter errorMessage - Incorrect email address and
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Find element: By.id: login-error
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Element By.id: login-error was found
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Find element: By.id: login-error
+2020-10-27 16:57:01 INFO  LogLog4j:42 - Element By.id: login-error was found
+2020-10-27 16:57:02 INFO  LogLog4j:42 - Find element: By.id: login-error
+2020-10-27 16:57:02 INFO  LogLog4j:42 - Element By.id: login-error was found
+2020-10-27 16:57:03 INFO  LogLog4j:42 - Find element: By.id: login-error
+2020-10-27 16:57:03 INFO  LogLog4j:42 - Element By.id: login-error was found
+2020-10-27 16:57:03 INFO  LogLog4j:42 - Find element: By.id: login-error
+2020-10-27 16:57:03 INFO  LogLog4j:42 - Element By.id: login-error was found
+2020-10-27 16:57:03 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-27 16:57:47 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-27 16:57:48 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:57:48 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:57:48 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:57:48 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:57:48 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:57:48 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:57:48 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:57:49 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e430f681dde9d97455c86540cdf285b5
+*** Element info: {Using=id, value=user}
+2020-10-27 16:57:49 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:57:50 INFO  LogLog4j:16 - 
+2020-10-27 16:57:50 INFO  LogLog4j:17 - 
+2020-10-27 16:57:50 INFO  LogLog4j:18 - *******************************************************************
+2020-10-27 16:57:50 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginIncorrect()
+2020-10-27 16:57:50 INFO  LogLog4j:20 - *******************************************************************
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Parameter login - 
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Parameter errorMessage - Missing email
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:57:50 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:57:55 INFO  LogLog4j:42 - Find element: By.id: login
+2020-10-27 16:57:56 INFO  LogLog4j:42 - Element By.id: login was found
+2020-10-27 16:57:56 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:57:56 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:57:56 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:57:56 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:57:56 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:57:56 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:57:56 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-27 16:58:04 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-27 16:58:04 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:58:05 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:58:05 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:58:05 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:58:05 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:58:05 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:58:05 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:06 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9b3109f7a37813e3b04f5f03c6fe723b
+*** Element info: {Using=id, value=user}
+2020-10-27 16:58:06 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:06 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:07 INFO  LogLog4j:16 - 
+2020-10-27 16:58:07 INFO  LogLog4j:17 - 
+2020-10-27 16:58:07 INFO  LogLog4j:18 - *******************************************************************
+2020-10-27 16:58:07 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginIncorrect()
+2020-10-27 16:58:07 INFO  LogLog4j:20 - *******************************************************************
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Parameter login - 123
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Parameter errorMessage - There isn't an account for this username
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:58:07 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:58:08 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:58:08 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:58:08 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:58:08 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:58:13 INFO  LogLog4j:42 - Find element: By.id: login
+2020-10-27 16:58:13 INFO  LogLog4j:42 - Element By.id: login was found
+2020-10-27 16:58:13 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:58:13 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:58:14 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:58:14 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:58:14 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:58:14 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:58:14 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:58:14 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:58:14 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-27 16:58:22 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-27 16:58:22 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:58:22 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:58:22 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:58:22 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:58:22 INFO  LogLog4j:42 - Find element: By.xpath: //*[@class='btn btn-sm btn-link text-white']
+2020-10-27 16:58:22 INFO  LogLog4j:42 - Element By.xpath: //*[@class='btn btn-sm btn-link text-white'] was found
+2020-10-27 16:58:23 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:23 INFO  LogLog4j:42 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESG2TQR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\Svetlana\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fc5cb65fade9196b0134a6321746466d
+*** Element info: {Using=id, value=user}
+2020-10-27 16:58:24 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:24 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:25 INFO  LogLog4j:16 - 
+2020-10-27 16:58:25 INFO  LogLog4j:17 - 
+2020-10-27 16:58:25 INFO  LogLog4j:18 - *******************************************************************
+2020-10-27 16:58:25 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginIncorrect()
+2020-10-27 16:58:25 INFO  LogLog4j:20 - *******************************************************************
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Parameter login - anjnd@gmail
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Parameter errorMessage - There isn't an account for this email
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Find element: By.id: user
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Element By.id: user was found
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Find element: By.id: password
+2020-10-27 16:58:25 INFO  LogLog4j:42 - Element By.id: password was found
+2020-10-27 16:58:30 INFO  LogLog4j:42 - Find element: By.id: login
+2020-10-27 16:58:30 INFO  LogLog4j:42 - Element By.id: login was found
+2020-10-27 16:58:30 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:58:31 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:58:31 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:58:31 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:58:31 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:58:31 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:58:31 INFO  LogLog4j:42 - Find element: By.id: error
+2020-10-27 16:58:31 INFO  LogLog4j:42 - Element By.id: error was found
+2020-10-27 16:58:31 INFO  LogLog4j:42 - -----Test case was finished------
