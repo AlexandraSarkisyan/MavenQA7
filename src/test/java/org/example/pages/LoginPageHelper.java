@@ -34,29 +34,40 @@ public class LoginPageHelper extends PageBase{
         this.driver= driver;
     }
     public LoginPageHelper loginAsAtlassian(String login,String password) {
+        log4j.info("LoginPageHelper:loginAsAtlassian(login = "+login+",password="+password+")");
+        log4j.info("****************** Enter Atlassian login ****************** ");
         enterLogin(login);
         submitAsAtlassian();
+        log4j.info("****************** Enter Atlassian password ****************** ");
         enterPasswordAsAtlassian(password);
+
         return this;
     }
     public String getBoardsIconName(){
         return boardsButton.getText();
     }
     public LoginPageHelper enterPasswordAsAtlassian(String password) {
+        log4j.info("****************** LoginPageHelper:enterPasswordAsAtlassian(password="+password+") ****************** ");
+        log4j.info("****************** Enter Atlassian password ****************** ");
         editField(passwordField,password);
         waitUntilElementIsClickable(loginSubmitButton,10);
+        log4j.info("****************** Submit password ****************** ");
         loginSubmitButton.click();
         return this;
     }
     public LoginPageHelper loginNotAtlassian(String login,String password) {
-        //Enter not atl login
+        log4j.info("****************** LoginPageHelper:loginNotAtlassian(login = "+login+",password="+password+")");
+        log4j.info("****************** Enter login ****************** ");
         enterLogin(login);
+        log4j.info("****************** Enter not Atlassian password ****************** ");
         enterNotAttlassianPassword(password);
+        log4j.info("****************** Submit password ****************** ");
         pressLoginButton();
         waitUntilElementIsVisible(errorMessage,10);
         return this;
     }
     public LoginPageHelper submitAsAtlassian() {
+        log4j.info("****************** Submit as Atlassian ***********************");
         waitUntilElementIsClickable(loginButtonAtl,10);
         loginButtonAtl.click();
         waitUntilElementIsClickable(passwordField,10);

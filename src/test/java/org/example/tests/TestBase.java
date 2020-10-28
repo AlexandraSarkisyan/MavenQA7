@@ -50,6 +50,7 @@ public class TestBase {
       //getScreenShot((TakesScreenshot) driver, screenName);
       log4j.info("Exception: " + throwable ); //+ " see file " + screenName);
     }
+
   }
 
   private static void getScreenShot(TakesScreenshot driver, String screenName) {
@@ -88,10 +89,8 @@ public class TestBase {
     if(result.getStatus() == ITestResult.FAILURE){
       String screenName = "screen-" + System.currentTimeMillis()+ ".png";
       getScreenShot((TakesScreenshot) driver, screenName);
-      log4j.info("Test failure, see screen " + screenName);
+      log4j.info("*********** Test failure, see screen " + screenName+"****************** ");
     }
-
-
     driver.quit();
   }
 
