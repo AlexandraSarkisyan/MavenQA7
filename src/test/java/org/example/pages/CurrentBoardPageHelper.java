@@ -35,7 +35,8 @@ public class CurrentBoardPageHelper extends PageBase {
             WebElement putListToArchiveButton;
     @FindBy(xpath = "//span[@class='icon-sm icon-add']")
             WebElement addCardButton;
-    @FindBy(xpath = "//textarea[@placeholder='Enter a title for this card…']")
+    @FindBy(xpath = "//textarea[@class='list-card-composer-textarea js-card-title']")
+    /*//textarea[@placeholder='Enter a title for this card…']*/
             WebElement cardTitleButton;
     @FindBy(xpath = "//input[@class='primary confirm mod-compact js-add-card']")
             WebElement submitNewCard;

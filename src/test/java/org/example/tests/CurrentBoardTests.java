@@ -13,7 +13,7 @@ public class CurrentBoardTests extends TestBase {
     CurrentBoardPageHelper qaHaifa7currentBoard;
     MenuPageHelper menuPage;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void initTest() {
         log4j.info("LoginTest:@BeforeMethod initTests()");
         loginPage= PageFactory.initElements(driver,LoginPageHelper.class);
@@ -40,7 +40,7 @@ public class CurrentBoardTests extends TestBase {
         Assert.assertTrue(qaHaifa7currentBoard.isCorrectCurrentBoard(),
                 "The header of the screen is not 'QA Haifa7'");
     }
-    @Test(dataProviderClass = DataProviders.class,dataProvider = "dataProviderCreateList")
+    @Test(groups={"smoke","regression"},dataProviderClass = DataProviders.class,dataProvider = "dataProviderCreateList")
     public void addNewListPositiveTest(String title) {
         //Add new list to the board
         int quantityListsInTheBeginning = qaHaifa7currentBoard.getQuantityLists();
@@ -48,7 +48,7 @@ public class CurrentBoardTests extends TestBase {
         int quantityListsAtTheEnd= qaHaifa7currentBoard.getQuantityLists();
         Assert.assertEquals(quantityListsAtTheEnd, quantityListsInTheBeginning +1, "The quantityListsAtTheEnd is not quantityListsInTheBeginning-1 ");
     }
-    @Test(dataProviderClass = DataProviders.class,dataProvider = "dataProviderCreateListRandom")
+    @Test(groups={"smoke","regression"},dataProviderClass = DataProviders.class,dataProvider = "dataProviderCreateListRandom")
     public void addNewListPositiveTest2(String title) {
         log4j.startTestCase("addNewListPositiveTest2");
         log4j.info("Parameter title - " + title);

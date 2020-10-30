@@ -35,7 +35,7 @@ public class LoginTests extends TestBase {
         log4j.info("-----Test case was finished------");
 
     }
-    @Test
+    @Test(groups= "regression")
     public void loginNegativeLoginEmpty()  {
         log4j.startTestCase("loginNegativeLoginEmpty()");
         log4j.info("Parameter login - " + "");
@@ -46,7 +46,7 @@ public class LoginTests extends TestBase {
         Assert.assertEquals(loginPage.getErrorMessage(),"Missing email",
                 "The text of the error message is not correct");
     }
-    @Test
+    @Test(groups= "regression")
     public void passwordIncorrectNegativeTest() {
         log4j.startTestCase("passwordIncorrectNegativeTest()");
         loginPage.loginAsAtlassian(LOGIN,PASSWORD+"1");
