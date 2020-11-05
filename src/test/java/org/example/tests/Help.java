@@ -25,7 +25,8 @@ public class Help  extends TestBase{
 
         homePage.waitUntilHomePageLoaded().openLoginPage();
         loginPage.waitUntilLoginPageIsLoaded().loginAsAtlassian(LOGIN,PASSWORD);
-        boardsPage.waitUntilPageIsLoaded().openCurrentBoardPage("QAHaifa7");
+        boardsPage.waitUntilPageIsLoaded();
+        boardsPage.openCurrentBoardPage("QAHaifa7");
         qaHaifa7currentBoard.waitUntilPageIsLoaded();
         qaHaifa7currentBoard.openMemberMenu();
         menuPage.waitUntilPageIsLoaded();
@@ -35,12 +36,10 @@ public class Help  extends TestBase{
     @Test
     public void checkHelpList() {
         menuPage.openHelpMenu();
-        Assert.assertEquals(helpMenu.getTitleText(),"Getting Started Guide");
-        Assert.assertEquals(helpMenu.getTitleText2(),"Getting started with Trello video Demo");
-        Assert.assertEquals(helpMenu.getTitleText3(),"Troubleshooting browser issues with Trello");
-        Assert.assertEquals(helpMenu.getTitleText4(),"What are teams?");
-        Assert.assertEquals(helpMenu.getTitleText5(),"How to use Trello like a pro");
-       /* Assert.assertEquals(helpMenu.getListText(),"Getting Started Guide Getting started with Trello video Demo
-                "Troubleshooting browser issues with Trello Troubleshooting browser issues with Trello How to use Trello like a pro");*/
-}
+        Assert.assertEquals(helpMenu.getTextLine1(), "Getting Started Guide");
+        Assert.assertEquals(helpMenu.getTextLine2(), "Getting started with Trello video Demo");
+        Assert.assertEquals(helpMenu.getTextLine3(), "Troubleshooting browser issues with Trello");
+        Assert.assertEquals(helpMenu.getTextLine4(), "What are teams?");
+        Assert.assertEquals(helpMenu.getTextLine5(), "How to use Trello like a pro");
+    }
 }

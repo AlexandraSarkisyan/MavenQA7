@@ -18,6 +18,16 @@ public class BoardsPageHelper extends PageBase{
         return this;
     }
 
+    public BoardsPageHelper openCurrentBoardPage2(String boardName) {
+        //div[@class='_1fp0H2u2NFTsxl'][.//a[@title ='QAHaifa7']]
+        //String xpath = "//div[@class='_1fp0H2u2NFTsxl'][.//a[@title ='"+boardName+"']]";
+       String xpath = "//li[@class='boards-page-board-section-list-item'][.//div[@title ='"+boardName+"']]";
+        waitUntilElementIsVisible(driver.findElement(By.xpath(xpath)),25);
+        WebElement board = driver.findElement(By
+                .xpath(xpath));
+        board.click();
+        return this;
+    }
     public BoardsPageHelper openCurrentBoardPage(String boardName) {
         String xpath = "//li[@class='boards-page-board-section-list-item'][.//div[@title ='" + boardName+"']]";
         waitUntilElementIsVisible(driver.findElement(By.xpath(xpath)),15);
